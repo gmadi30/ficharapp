@@ -1,4 +1,13 @@
 package com.tfg.ficharapp.service;
 
-public class EmployeeService {
+import com.tfg.ficharapp.model.Employee;
+
+import java.util.List;
+
+
+public interface EmployeeService {
+
+     Employee saveEmployee(Employee employee);
+
+     List<Employee> getAllEmployees();
 }
